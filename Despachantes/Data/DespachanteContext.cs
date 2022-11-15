@@ -13,5 +13,8 @@ namespace Despachantes.Data
 
         public DbSet<Veiculo> Veiculos { get; set; }
 
+        public DbSet<Servico> Servicos { get; set; }
+
+
     }
 }
