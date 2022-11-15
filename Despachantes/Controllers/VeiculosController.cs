@@ -124,10 +124,10 @@ namespace Despachantes.Controllers
             {
                 var veiculo = await _veiculoService.GetVeiculobyId(id);
 
-                if (veiculo == null) return NotFound($"Aluno com o id = {id} não encontrado!");
+                if (veiculo == null) return NotFound($"Veiculo com o id = {id} não encontrado!");
 
                 await _veiculoService.DeleteVeiculo(veiculo);
-                return Ok($"Aluno com o id = {id} excluído com sucesso!");
+                return Ok($"Veiculo com o id = {id} excluído com sucesso!");
             }
             catch
             {
