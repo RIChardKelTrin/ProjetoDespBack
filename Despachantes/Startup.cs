@@ -36,6 +36,8 @@ namespace Despachantes
 
             services.AddScoped<IVeiculoService, VeiculoService>();
             services.AddScoped<IServicoService, ServicoService>();
+            services.AddScoped<IVeiculoServicoService, VeiculoServicoService>();
+
 
         }
 

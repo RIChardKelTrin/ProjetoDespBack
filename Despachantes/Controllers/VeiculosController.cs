@@ -16,11 +16,11 @@ namespace Despachantes.Controllers
     [Route("api/[Controller]")]
     [ApiController]
 
-    public class VeiculosController : ControllerBase
+    public class VeiculoController : ControllerBase
     {
         private IVeiculoService _veiculoService;
 
-        public VeiculosController(IVeiculoService veiculoService)
+        public VeiculoController(IVeiculoService veiculoService)
         {
             _veiculoService = veiculoService;
         }

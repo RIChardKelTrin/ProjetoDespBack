@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Despachantes.Models
 {
-    public class Veiculo_Servico
+    public class VeiculoServico
     {
         [Key]
         public int Id { get; set; }
@@ -21,7 +21,10 @@ namespace Despachantes.Models
 
         public Veiculo Veiculo  { get; set; }
 
-        public char Situacao { get; set; }
+        [ForeignKey("SituacaoSV")]
+        public int Fk_Situacao { get; set; }
+
+        public SituacaoSV SituacaoSV { get; set; }
 
         public DateTime DataDeEntrada { get; set; }
     }
