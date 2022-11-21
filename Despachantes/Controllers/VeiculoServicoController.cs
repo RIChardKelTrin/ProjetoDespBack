@@ -26,8 +26,8 @@ namespace Despachantes.Controllers
         {
             try
             {
-                var veiculos = await _veiculoServicoService.GetVeiculoServico();
-                return Ok(veiculos);
+                var veiculosServico = await _veiculoServicoService.GetVeiculoServico();
+                return Ok(veiculosServico);
             }
             catch
             {
@@ -41,8 +41,6 @@ namespace Despachantes.Controllers
             try
             {
                 var veiculosServico = await _veiculoServicoService.GetVeiculoServicoById(id);
-
-                if (veiculosServico == null) return NotFound($"Não existem SV com id = {id}");
 
                 return Ok(veiculosServico);
             }
@@ -61,7 +59,7 @@ namespace Despachantes.Controllers
 
                 if (veiculosServico == null) return NotFound($"Não existem SV com id = {fk_Situacao}");
 
-                return Ok(veiculosServico);
+               return Ok(veiculosServico);
             }
             catch
             {

@@ -47,8 +47,6 @@ namespace Despachantes.Controllers
             {
                 var veiculos = await _veiculoService.GetVeiculoByPlaca(placa);
 
-                if (veiculos == null) return NotFound($"Não existe veículo com essa placa =  {placa}");
-
                 return Ok(veiculos);
             }
             catch

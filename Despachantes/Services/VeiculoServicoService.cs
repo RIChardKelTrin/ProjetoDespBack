@@ -3,6 +3,7 @@ using Despachantes.Exceptions;
 using Despachantes.Model;
 using Despachantes.Models;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -33,14 +34,20 @@ namespace Despachantes.Services
         public async Task<IEnumerable<VeiculoServico>> GetVeiculoServicoBySituacao(int situacao)
         {
             IEnumerable<VeiculoServico> veiculoServicos;
-            if (situacao != 0)
-            {
-                veiculoServicos = await _Context.VeiculosServicos.Where(vs => vs.Fk_Situacao == situacao).ToListAsync();
+            if (situacao == -1) {
+                veiculoServicos = await GetVeiculoServico();
             }
             else
             {
-                veiculoServicos = await GetVeiculoServico();
+                veiculoServicos = await _Context.VeiculosServicos.Where(vs => vs.Fk_Situacao == situacao).ToListAsync(); 
             }
+
+            IEnumerable<Veiculo> veiculo = await _Context.Veiculos.ToListAsync();
+            IEnumerable<Servico> servico = await _Context.Servicos.ToListAsync();
+            IEnumerable<SituacaoSV> situacaoSV = await _Context.SituacaoSV.ToListAsync();
+            IEnumerable<Cliente> cliente = await _Context.Clientes.ToListAsync();
+
+
 
             return veiculoServicos;
         }
@@ -53,6 +60,7 @@ namespace Despachantes.Services
 
         public async Task CreateVeiculoServico(VeiculoServico VeiculoServico)
         {
+            VeiculoServico.Fk_Situacao = 1;
             _Context.VeiculosServicos.Add(VeiculoServico);
             await _Context.SaveChangesAsync();
         }
