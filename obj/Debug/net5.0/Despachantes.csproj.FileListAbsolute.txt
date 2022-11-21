@@ -1,0 +1,214 @@
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\appsettings.json
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.exe
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.deps.json
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.runtimeconfig.json
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.runtimeconfig.dev.json
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.pdb
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.csproj.AssemblyReference.cache
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.AssemblyInfoInputs.cache
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.AssemblyInfo.cs
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.csproj.CoreCompileInputs.cache
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\scopedcss\bundle\Despachantes.styles.css
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\staticwebassets\Despachantes.StaticWebAssets.Manifest.cache
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.RazorTargetAssemblyInfo.cache
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\refint\Despachantes.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.pdb
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.genruntimeconfig.cache
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\ref\Despachantes.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Humanizer.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kenzo\Desktop\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.csproj.CopyComplete
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\appsettings.json
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.exe
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.deps.json
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.runtimeconfig.json
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.runtimeconfig.dev.json
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.pdb
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Humanizer.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.AssemblyInfo.cs
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\scopedcss\bundle\Despachantes.styles.css
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\staticwebassets\Despachantes.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.csproj.CopyComplete
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\refint\Despachantes.dll
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.pdb
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.genruntimeconfig.cache
+C:\Users\user\Desktop\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\ref\Despachantes.dll
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.csproj.AssemblyReference.cache
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.AssemblyInfoInputs.cache
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.AssemblyInfo.cs
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.csproj.CoreCompileInputs.cache
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.MvcApplicationPartsAssemblyInfo.cs
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.MvcApplicationPartsAssemblyInfo.cache
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.dll
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\ref\Despachantes.dll
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.pdb
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\appsettings.Development.json
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\appsettings.json
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.exe
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.deps.json
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.runtimeconfig.json
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.runtimeconfig.dev.json
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.pdb
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\AutoMapper.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Google.Protobuf.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Humanizer.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\MySql.Data.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Zstandard.Net.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\staticwebassets\Despachantes.StaticWebAssets.Manifest.cache
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\scopedcss\bundle\Despachantes.styles.css
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.RazorTargetAssemblyInfo.cache
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.csproj.CopyComplete
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\Despachantes.genruntimeconfig.cache
+D:\Despachantes (1)\Despachantes\Despachantes\bin\Debug\net5.0\Despachantes.StaticWebAssets.xml
+D:\Despachantes (1)\Despachantes\Despachantes\obj\Debug\net5.0\refint\Despachantes.dll
