@@ -50,14 +50,14 @@ namespace Despachantes.Controllers
             }
         }
 
-        [HttpGet("situacao")]
-        public async Task<ActionResult<VeiculoServico>> GetVeiculoServicoBySituacao([FromQuery] string nomeSituacao)
+        [HttpGet("situacao/{fk_Situacao:int}")]
+        public async Task<ActionResult<VeiculoServico>> GetVeiculoServicoBySituacao(int fk_Situacao)
         {
             try
             {
-                var veiculosServico = await _veiculoServicoService.GetVeiculoServicoBySituacao(nomeSituacao);
+                var veiculosServico = await _veiculoServicoService.GetVeiculoServicoBySituacao(fk_Situacao);
 
-                if (veiculosServico == null) return NotFound($"Não existem SV com a situação: {nomeSituacao}");
+                if (veiculosServico == null) return NotFound($"Não existem SV com id = {fk_Situacao}");
 
                return Ok(veiculosServico);
             }
@@ -72,7 +72,6 @@ namespace Despachantes.Controllers
         {
             try
             {
-                veiculoServico.DataDeEntrada = DateTime.Now;
                 await _veiculoServicoService.CreateVeiculoServico(veiculoServico);
                 return CreatedAtAction(nameof(getVeiculoServico), new { id = veiculoServico.Id }, veiculoServico);
             }
