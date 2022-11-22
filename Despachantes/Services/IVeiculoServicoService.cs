@@ -10,7 +10,7 @@ namespace Despachantes.Services
 
         Task<IEnumerable<VeiculoServico>> GetVeiculoServico();
         Task<VeiculoServico> GetVeiculoServicoById(int id);
-        Task<IEnumerable<VeiculoServico>> GetVeiculoServicoBySituacao(int situacao);
+        Task<IEnumerable<VeiculoServico>> GetVeiculoServicoBySituacao(string situacao);
         Task CreateVeiculoServico(VeiculoServico veiculoServico);
         Task UpdateVeiculoServico(VeiculoServico veiculoServico);
         Task DeleteVeiculoServico(VeiculoServico veiculoServico);

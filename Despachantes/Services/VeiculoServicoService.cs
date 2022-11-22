@@ -3,9 +3,11 @@ using Despachantes.Exceptions;
 using Despachantes.Model;
 using Despachantes.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Threading.Tasks;
 
 namespace Despachantes.Services
@@ -31,15 +33,15 @@ namespace Despachantes.Services
             }
         }
 
-        public async Task<IEnumerable<VeiculoServico>> GetVeiculoServicoBySituacao(int situacao)
+        public async Task<IEnumerable<VeiculoServico>> GetVeiculoServicoBySituacao(string situacao)
         {
             IEnumerable<VeiculoServico> veiculoServicos;
-            if (situacao == -1) {
-                veiculoServicos = await GetVeiculoServico();
+            if (!string.IsNullOrWhiteSpace(situacao)) {
+                veiculoServicos = await _Context.VeiculosServicos.Where(vs => vs.SituacaoSV.Nome.Contains(situacao)).OrderByDescending(vs => vs.DataDeEntrada).ToListAsync();
             }
             else
             {
-                veiculoServicos = await _Context.VeiculosServicos.Where(vs => vs.Fk_Situacao == situacao).ToListAsync(); 
+                veiculoServicos = await _Context.VeiculosServicos.OrderByDescending(vs => vs.DataDeEntrada).ToListAsync();
             }
 
             IEnumerable<Veiculo> veiculo = await _Context.Veiculos.ToListAsync();
