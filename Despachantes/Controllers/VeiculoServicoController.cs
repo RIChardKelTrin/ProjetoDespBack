@@ -73,6 +73,7 @@ namespace Despachantes.Controllers
             try
             {
                 veiculoServico.DataDeEntrada = DateTime.Now;
+                veiculoServico.Fk_Situacao = 1;
                 await _veiculoServicoService.CreateVeiculoServico(veiculoServico);
                 return CreatedAtAction(nameof(getVeiculoServico), new { id = veiculoServico.Id }, veiculoServico);
             }
