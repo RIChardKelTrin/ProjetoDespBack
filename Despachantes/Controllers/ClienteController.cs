@@ -54,12 +54,12 @@ namespace Despachantes.Controllers
 
         }
 
-        [HttpGet("cpf/{Cpf:string}")]
-        public async Task<ActionResult<Cliente>> GetClienteByCpf(string Cpf)
+        [HttpGet("cpf")]
+        public IActionResult GetClienteByCpf([FromQuery] string Cpf)
         {
             try
             {
-                Cliente cliente = await _Context.Clientes.FindAsync(Cpf);
+                var cliente = _Context.Clientes.Where(c => c.Cpf.Contains(Cpf));
 
                 if(cliente != null)
                 {
@@ -72,7 +72,7 @@ namespace Despachantes.Controllers
             }
             catch
             {
-                return BadRequest("");
+                return BadRequest("Erro ao consultar por Cpf");
             }
             
         }
