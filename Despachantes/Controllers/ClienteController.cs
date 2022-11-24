@@ -1,13 +1,16 @@
 ﻿using Despachantes.Data;
 using Despachantes.Model;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Despachantes.Controllers
 {
     [ApiController]
-    [Route("[Controller]")]
+    [Route("api/[Controller]")]
     public class ClienteController : ControllerBase
     {
         private DespachanteContext _Context;
@@ -26,20 +29,111 @@ namespace Despachantes.Controllers
         [HttpPost]
         public IActionResult AddCliente([FromBody] Cliente Cliente)
         {
-            _Context.Clientes.Add(Cliente);
-            _Context.SaveChanges();
-            return CreatedAtAction(nameof(GetClienteById), new { Id = Cliente.Id }, Cliente);
+
+            var Clientes = GetCliente();
+
+            var ValidaCpf = Clientes.Where(C => C.Cpf == Cliente.Cpf).ToList();
+            try
+            {
+                if (ValidaCpf.Count <= 0)
+                {
+                    _Context.Clientes.Add(Cliente);
+                    _Context.SaveChanges();
+                        return CreatedAtAction(nameof(GetClienteById), new { Id = Cliente.Id }, Cliente);
+                }
+
+                else
+                {
+                    return StatusCode(403);
+                }
+            }
+            catch
+            {
+                return BadRequest("Erro ao cadastrar");
+            }
+
         }
 
-        [HttpGet("{id}")]
-        public IActionResult GetClienteById(int id)
+        [HttpGet("cpf")]
+        public IActionResult GetClienteByCpf([FromQuery] string Cpf)
         {
-            Cliente Cliente = _Context.Clientes.FirstOrDefault(Cliente => Cliente.Id == id);
-            if (Cliente != null)
+            try
             {
-                return Ok(Cliente);
+                var cliente = _Context.Clientes.Where(c => c.Cpf.Contains(Cpf));
+
+                if(cliente != null)
+                {
+                    return Ok(cliente);
+                }
+                else
+                {
+                    return NotFound();
+                }
             }
-            return NotFound();
+            catch
+            {
+                return BadRequest("Erro ao consultar por Cpf");
+            }
+            
+        }
+
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Cliente>> GetClienteById(int id)
+        {
+            IEnumerable<Cliente> Cliente = await _Context.Clientes.Where(Cliente => Cliente.Id == id).ToListAsync();
+            if (Cliente == null)
+            {
+                return NotFound();
+
+            }
+            return Ok(Cliente);
+
+        }
+
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCliente(int id)
+        {
+            var DeletCliente = await _Context.Clientes.FindAsync(id);
+            if (DeletCliente == null)
+            {
+                return NotFound();
+            }
+
+            _Context.Clientes.Remove(DeletCliente);
+            await _Context.SaveChangesAsync();
+
+            return NoContent();
+        }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutTodoItem(int id, Cliente cliente)
+        {
+
+            var Clientes = await _Context.Clientes.Where(C => C.Cpf == cliente.Cpf && C.Id != cliente.Id).ToListAsync();
+
+            try
+            {
+                if (Clientes.Count <= 0 && id == cliente.Id)
+                {
+                   _Context.Entry(cliente).State = EntityState.Modified;
+                   await _Context.SaveChangesAsync();
+                    return Ok(cliente);
+                }
+                else
+                {
+                    return StatusCode(403);
+                }
+            }
+            catch
+            {
+                return BadRequest("Erro ao editar CLiente");
+            }
+        }
+
+        private bool ClienteExists(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

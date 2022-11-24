@@ -1,4 +1,5 @@
 using Despachantes.Data;
+using Despachantes.services;
 using Despachantes.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,6 +35,10 @@ namespace Despachantes
             services.AddControllers();
 
             services.AddScoped<IVeiculoService, VeiculoService>();
+            services.AddScoped<IServicoService, ServicoService>();
+            services.AddScoped<IVeiculoServicoService, VeiculoServicoService>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

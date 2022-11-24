@@ -16,11 +16,11 @@ namespace Despachantes.Controllers
     [Route("api/[Controller]")]
     [ApiController]
 
-    public class VeiculosController : ControllerBase
+    public class VeiculoController : ControllerBase
     {
         private IVeiculoService _veiculoService;
 
-        public VeiculosController(IVeiculoService veiculoService)
+        public VeiculoController(IVeiculoService veiculoService)
         {
             _veiculoService = veiculoService;
         }
@@ -124,10 +124,10 @@ namespace Despachantes.Controllers
             {
                 var veiculo = await _veiculoService.GetVeiculobyId(id);
 
-                if (veiculo == null) return NotFound($"Aluno com o id = {id} não encontrado!");
+                if (veiculo == null) return NotFound($"Veiculo com o id = {id} não encontrado!");
 
                 await _veiculoService.DeleteVeiculo(veiculo);
-                return Ok($"Aluno com o id = {id} excluído com sucesso!");
+                return Ok($"Veiculo com o id = {id} excluído com sucesso!");
             }
             catch
             {
