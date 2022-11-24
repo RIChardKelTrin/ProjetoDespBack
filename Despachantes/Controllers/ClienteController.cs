@@ -54,6 +54,30 @@ namespace Despachantes.Controllers
 
         }
 
+        [HttpGet("cpf/{Cpf:string}")]
+        public async Task<ActionResult<Cliente>> GetClienteByCpf(string Cpf)
+        {
+            try
+            {
+                Cliente cliente = await _Context.Clientes.FindAsync(Cpf);
+
+                if(cliente != null)
+                {
+                    return Ok(cliente);
+                }
+                else
+                {
+                    return NotFound();
+                }
+            }
+            catch
+            {
+                return BadRequest("");
+            }
+            
+        }
+
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Cliente>> GetClienteById(int id)
         {
