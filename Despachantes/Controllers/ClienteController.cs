@@ -114,7 +114,7 @@ namespace Despachantes.Controllers
 
             try
             {
-                if (Clientes.Count <= 0)
+                if (Clientes.Count <= 0 && id == cliente.Id)
                 {
                    _Context.Entry(cliente).State = EntityState.Modified;
                    await _Context.SaveChangesAsync();
