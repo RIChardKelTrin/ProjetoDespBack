@@ -85,39 +85,25 @@ namespace Despachantes.Controllers
         public async Task<IActionResult> PutTodoItem(int id, Cliente cliente)
         {
 
-            var Clientes = GetCliente();
-
-            var ValidaCpf = Clientes.Where(C => C.Cpf == cliente.Cpf && C.Id != cliente.Id).ToList();
-
-
-            if (id != cliente.Id)
-            {
-                return BadRequest();
-
-            }else if (ValidaCpf.Count <= 0)
-            {
-               return StatusCode(403);
-            }
-
-            _Context.Entry(cliente).State = EntityState.Modified;
+            var Clientes = await _Context.Clientes.Where(C => C.Cpf == cliente.Cpf && C.Id != cliente.Id).ToListAsync();
 
             try
             {
-                await _Context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ClienteExists(id))
+                if (Clientes.Count <= 0 && id == cliente.Id)
                 {
-                    return NotFound();
+                    _Context.Entry(cliente).State = EntityState.Modified;
+                    await _Context.SaveChangesAsync();
+                    return Ok(cliente);
                 }
                 else
                 {
-                    throw;
+                    return StatusCode(403);
                 }
             }
-
-            return NoContent();
+            catch
+            {
+                return BadRequest("Erro ao editar CLiente");
+            }
         }
 
         private bool ClienteExists(int id)
