@@ -123,6 +123,24 @@ namespace Despachantes.Controllers
             }
         }
 
+        [HttpDelete("{id:int}")]
+        public async Task<ActionResult<Servico>> DeleteServico(int id)
+        {
+            try
+            {
+                var veiculo = await _servicoService.GetServicoById(id);
+
+                if (veiculo == null) return NotFound($"Servico com o id = {id} não encontrado!");
+
+                await _servicoService.DeleteServico(veiculo);
+                return Ok($"Servico com o id = {id} excluído com sucesso!");
+            }
+            catch
+            {
+                return BadRequest("Request Inválido");
+            }
+        }
+
     }
 
 }
