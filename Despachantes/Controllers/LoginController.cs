@@ -34,12 +34,19 @@ namespace Despachantes.Controllers
         [HttpGet("{id}/{usuario}/{senha}")]
         public IActionResult GetLoginById(int id, string usuario, int senha)
         {
-            Login Login = _Context.Logins.FirstOrDefault(Login => Login.Id == id & Login.Usuario == usuario & Login.Senha == senha);
+            try
+            {
+                Login Login = _Context.Logins.FirstOrDefault(Login => Login.Id == id & Login.Usuario == usuario & Login.Senha == senha);
             if (Login != null)
             {
                 return Ok(Login);
             }
             return NotFound();
+            }
+            catch
+            {
+                return BadRequest();
+            }
         }
     }
 }
